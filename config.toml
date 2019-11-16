@@ -4,8 +4,11 @@ theme = "hello-friend-ng"
 
 googleAnalytics = "UA-128676-5"
 title = "Conall O'Brien"
-sub = "Testing 123"
 
+# Bio
+# TODO(conall): Get the subtitle to work
+sub = "Testing 123"
+# "https://www.untappd.com/user/conall/"  
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -32,10 +35,8 @@ sub = "Testing 123"
   author = "Conall O'Brien"
 
   # Photo
+# TODO(conall): Get the profile photo to work
   avatar = "content/DSC02070.smaller.jpg"
-
-  # Bio
-  # "https://www.untappd.com/user/conall/"  
 
   # Social Media
   [[params.social]]
