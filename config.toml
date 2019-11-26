@@ -1,4 +1,8 @@
 baseURL = "https://www.conall.net/"
+# Force https
+canonifyURLs = true
+enforce_ssl = "www.conall.net"
+
 languageCode = "en-ie"
 theme = "hello-friend-ng"
 
@@ -6,8 +10,6 @@ googleAnalytics = "UA-128676-5"
 title = "Conall O'Brien"
 
 # Bio
-# TODO(conall): Get the subtitle to work
-sub = "Testing 123"
 # "https://www.untappd.com/user/conall/"  
 
 [params]
@@ -32,11 +34,24 @@ sub = "Testing 123"
   # Page Content
   # 
 
-  author = "Conall O'Brien"
+  name = "Conall O'Brien"
+  aboutMe = [
+    "Husband, Father of 2",
+    "Pet Human to a Cat",
+    "[Site Reliability Engineer at Google](https://landing.google.com/sre/)",
+    "Internet Native",
+    "Computer Nerd/Tinkerer",
+    "Novice Woodworker",
+    "Beer Nerd, Sporadic Homebrewer",
+    "Wellbeing Advocate",
+    "Dubliner, Traveller",
+    "Hair Colour May Vary",
+    "he/him"
+  ]
 
   # Photo
-# TODO(conall): Get the profile photo to work
-  avatar = "content/DSC02070.smaller.jpg"
+  # TODO(conall): Fix the headshot layout, it's slightly off centre
+  headshot = "headshot.jpg"
 
   # Social Media
   [[params.social]]
