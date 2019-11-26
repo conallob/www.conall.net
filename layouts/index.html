@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+              {{ with .Site.Params.headshot }}
+	        <img src="/img/{{ . }}" alt="Author Image" width=300 height=300 class="img-circle text-center headshot portrait">
+	      {{ end }}
+
+
+            <h1>{{ .Site.Title }}</h1>
+
+	    <ul style="list-style-type:none">
+            {{- range .Site.Params.aboutMe }}
+                <li>{{.| markdownify }}</li>
+            {{- end }}
+	    </ul>
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}
