@@ -1,18 +1,20 @@
 {{ define "main" }}
     <main aria-role="main">
+
         <div>
               {{ with .Site.Params.headshot }}
-	        <img src="/img/{{ . }}" alt="Author Image" width=300 height=300 class="img-circle text-center headshot portrait">
+	        <img style="border-radius: 20px; margin: auto;" src="/img/{{ . }}" alt="Author Image" width=300 height=300 class="img-circle headshot portrait">
 	      {{ end }}
-
 
             <h1>{{ .Site.Title }}</h1>
 
-	    <ul style="list-style-type:none">
-            {{- range .Site.Params.aboutMe }}
-                <li>{{.| markdownify }}</li>
-            {{- end }}
-	    </ul>
+	    <p>
+		    <ul style="list-style-type:none; margin: auto;">
+		    {{- range .Site.Params.aboutMe }}
+			<li>{{ . | markdownify }}</li>
+		    {{- end }}
+		    </ul>
+	    </p>
 
             {{- with .Site.Params.social }}
                 <div>
