@@ -61,6 +61,9 @@ title = "Conall O'Brien"
     name = "twitter"
     url = "https://www.twitter.com/conall"
   [[params.social]]
+    name = "mastodon"
+    url = "https://mastodon.ie/web/@conall"
+  [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/conall/"  
   [[params.social]]
