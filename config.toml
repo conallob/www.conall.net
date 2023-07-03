@@ -76,6 +76,9 @@ title = "Conall O'Brien"
     name = "github"
     url = "https://github.com/conallob"
   [[params.social]]
+    name = "leetcode"
+    url = "https://www.leetcode.com/conallob"
+  [[params.social]]
     name = "email"
     link = "mailto:conall@conall.net"
 
