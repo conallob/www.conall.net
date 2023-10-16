@@ -56,32 +56,32 @@ title = "Conall O'Brien"
     url = "https://www.facebook.com/conallob"
     icon = "fa fa-2x fa-facebook"
   [[params.social]]
-    name = "Instagram"
+    name = "instagram"
     url = "https://instagram.com/conall0b"
     icon = "fa fa-2x fa-instagram"    
   [[params.social]]
-    name = "Twitter"
+    name = "wwitter"
     url = "https://www.twitter.com/conall"
     icon = "fa fa-2x fa-twitter"
   [[params.social]]
-    name = "Mastodon"
+    name = "mastodon"
     url = "https://mastodon.ie/web/@conall"
     icon = "fa fa-2x fa-mastodon"
     rel = "me"
   [[params.social]]
-    name = "LinkedIn"
+    name = "linkedin"
     url = "https://www.linkedin.com/in/conall/"
     icon = "fa fa-2x fa-linkedin"    
   [[params.social]]
-    name = "Discord"
+    name = "discord"
     url = "https://www.discordapp.com/users/conall#1826"
     icon = "fa fa-2x fa-discord"    
   [[params.social]]
-    name = "Keybase"
+    name = "keybase"
     url = "https://www.keybase.io/conall"
     icon = "fa fa-2x fa-keybase"    
   [[params.social]]
-    name = "GitHub"
+    name = "github"
     url = "https://github.com/conallob"
     icon = "fa fa-2x fa-github"    
   [[params.social]]
@@ -91,6 +91,7 @@ title = "Conall O'Brien"
   [[params.social]]
     name = "email"
     link = "mailto:conall@conall.net"
+    icon = "fa fa-2x fa-paper-plane"   
 
   [[menu.main]]
     identifier = "blog"
