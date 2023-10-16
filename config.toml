@@ -52,7 +52,7 @@ title = "Conall O'Brien"
 
   # Social Media
   [[params.social]]
-    name = "Facebook"
+    name = "facebook"
     url = "https://www.facebook.com/conallob"
     icon = "fa fa-2x fa-facebook"
   [[params.social]]
