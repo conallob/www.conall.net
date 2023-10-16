@@ -52,31 +52,38 @@ title = "Conall O'Brien"
 
   # Social Media
   [[params.social]]
-    name = "facebook"
+    name = "Facebook"
     url = "https://www.facebook.com/conallob"
+    icon = "fa fa-2x fa-facebook"
   [[params.social]]
-    name = "instagram"
+    name = "Instagram"
     url = "https://instagram.com/conall0b"
+    icon = "fa fa-2x fa-instagram"    
   [[params.social]]
-    name = "twitter"
+    name = "Twitter"
     url = "https://www.twitter.com/conall"
+    icon = "fa fa-2x fa-twitter"
   [[params.social]]
-    name = "mastodon"
+    name = "Mastodon"
     url = "https://mastodon.ie/web/@conall"
     icon = "fa fa-2x fa-mastodon"
     rel = "me"
   [[params.social]]
-    name = "linkedin"
+    name = "LinkedIn"
     url = "https://www.linkedin.com/in/conall/"
+    icon = "fa fa-2x fa-linkedin"    
   [[params.social]]
-    name = "discord"
-    url = "https://www.discordapp.com/users/conall#1826"    
+    name = "Discord"
+    url = "https://www.discordapp.com/users/conall#1826"
+    icon = "fa fa-2x fa-discord"    
   [[params.social]]
-    name = "keybase"
+    name = "Keybase"
     url = "https://www.keybase.io/conall"
+    icon = "fa fa-2x fa-keybase"    
   [[params.social]]
-    name = "github"
+    name = "GitHub"
     url = "https://github.com/conallob"
+    icon = "fa fa-2x fa-github"    
   [[params.social]]
     name = "leetcode"
     url = "https://www.leetcode.com/conallob"
