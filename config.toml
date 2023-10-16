@@ -63,6 +63,8 @@ title = "Conall O'Brien"
   [[params.social]]
     name = "mastodon"
     url = "https://mastodon.ie/web/@conall"
+    icon = "fa fa-2x fa-mastodon"
+    rel = "me"
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/conall/"
@@ -78,6 +80,7 @@ title = "Conall O'Brien"
   [[params.social]]
     name = "leetcode"
     url = "https://www.leetcode.com/conallob"
+    icon = "fa fa-2x fa-leetcode"
   [[params.social]]
     name = "email"
     link = "mailto:conall@conall.net"
