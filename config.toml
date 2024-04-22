@@ -6,8 +6,11 @@ enforce_ssl = "www.conall.net"
 languageCode = "en-ie"
 theme = "hello-friend-ng"
 
-googleAnalytics = "UA-128676-5"
 title = "Conall O'Brien"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-MDG8SMJ0J2'
 
 # Bio
 # "https://www.untappd.com/user/conall/"  
