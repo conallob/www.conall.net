@@ -63,7 +63,7 @@ title = "Conall O'Brien"
     url = "https://instagram.com/conall0b"
     icon = "fa fa-2x fa-instagram"    
   [[params.social]]
-    name = "wwitter"
+    name = "twitter"
     url = "https://www.twitter.com/conall"
     icon = "fa fa-2x fa-twitter"
   [[params.social]]
@@ -75,10 +75,6 @@ title = "Conall O'Brien"
     name = "linkedin"
     url = "https://www.linkedin.com/in/conall/"
     icon = "fa fa-2x fa-linkedin"    
-  [[params.social]]
-    name = "discord"
-    url = "https://www.discordapp.com/users/conall#1826"
-    icon = "fa fa-2x fa-discord"    
   [[params.social]]
     name = "keybase"
     url = "https://www.keybase.io/conall"
