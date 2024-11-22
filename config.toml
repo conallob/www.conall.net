@@ -61,7 +61,11 @@ title = "Conall O'Brien"
   [[params.social]]
     name = "instagram"
     url = "https://instagram.com/conall0b"
-    icon = "fa fa-2x fa-instagram"    
+    icon = "fa fa-2x fa-instagram"
+  [[params.social]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/conall.net"
+    icon = "fa fa-2x fa-bluesky"    
   [[params.social]]
     name = "twitter"
     url = "https://www.twitter.com/conall"
