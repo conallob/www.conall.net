@@ -12,9 +12,6 @@ title = "Conall O'Brien"
   [services.googleAnalytics]
     ID = 'G-MDG8SMJ0J2'
 
-# Bio
-# "https://www.untappd.com/user/conall/"  
-
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -67,10 +64,6 @@ title = "Conall O'Brien"
     url = "https://bsky.app/profile/conall.net"
     icon = "fa fa-2x fa-bluesky"    
   [[params.social]]
-    name = "twitter"
-    url = "https://www.twitter.com/conall"
-    icon = "fa fa-2x fa-twitter"
-  [[params.social]]
     name = "mastodon"
     url = "https://mastodon.ie/web/@conall"
     icon = "fa fa-2x fa-mastodon"
@@ -79,10 +72,6 @@ title = "Conall O'Brien"
     name = "linkedin"
     url = "https://www.linkedin.com/in/conall/"
     icon = "fa fa-2x fa-linkedin"    
-  [[params.social]]
-    name = "keybase"
-    url = "https://www.keybase.io/conall"
-    icon = "fa fa-2x fa-keybase"    
   [[params.social]]
     name = "github"
     url = "https://github.com/conallob"
