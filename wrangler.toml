@@ -1,0 +1,28 @@
+name = "www-conall-net"
+main = "worker.js"
+compatibility_date = "2026-05-27"
+
+[assets]
+directory = "public"
+
+# Primary domain
+[[routes]]
+pattern = "www.conall.net"
+custom_domain = true
+
+# Alt names — all redirect to www.conall.net
+[[routes]]
+pattern = "www.conall.dev"
+custom_domain = true
+
+[[routes]]
+pattern = "www.conall.ie"
+custom_domain = true
+
+[[routes]]
+pattern = "www.conallob.net"
+custom_domain = true
+
+[[routes]]
+pattern = "www.conallobrien.com"
+custom_domain = true
