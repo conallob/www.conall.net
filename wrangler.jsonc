@@ -1,17 +1,5 @@
 {
   "name": "www-conall-net",
   "compatibility_date": "2026-06-17",
-  "pages_build_output_dir": "./public",
-  "build": {
-    "command": "git submodule update --init --recursive && curl -fsSL https://github.com/gohugoio/hugo/releases/download/v0.147.2/hugo_extended_0.147.2_linux-amd64.tar.gz | tar -xz -C /tmp hugo && /tmp/hugo --minify"
-  },
-  // Primary domain
-  "routes": [
-    { "pattern": "www.conall.net", "custom_domain": true },
-    // Alt names — all redirect to www.conall.net
-    { "pattern": "www.conall.dev", "custom_domain": true },
-    { "pattern": "www.conall.ie", "custom_domain": true },
-    { "pattern": "www.conallob.net", "custom_domain": true },
-    { "pattern": "www.conallobrien.com", "custom_domain": true }
-  ]
+  "pages_build_output_dir": "./public"
 }
