@@ -6,9 +6,6 @@
   "observability": {
     "enabled": true
   },
-  "assets": {
-    "directory": "/Users/conall/Documents/GitHub/www.conall.net/public"
-  },
   "compatibility_flags": [
     "nodejs_compat"
   ]
