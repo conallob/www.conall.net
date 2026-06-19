@@ -1,6 +1,15 @@
 {
   "name": "www-conall-net",
-  "compatibility_date": "2026-06-17",
-  "pages_build_output_dir": "./public"
+  "compatibility_date": "2026-06-19",
+  "pages_build_output_dir": "./public",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "/Users/conall/Documents/GitHub/www.conall.net/public"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
-
