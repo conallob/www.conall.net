@@ -1,11 +1,18 @@
 {
+
+{
   "name": "www-conall-net",
   "compatibility_date": "2026-06-19",
   "pages_build_output_dir": "./public",
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "observability": {
-    "enabled": true
+  "compatibility_date": "2026-02-17",
+  "build": {
+    "command": "hugo --gc --minify"
   },
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+  "$schema": "node_modules/wrangler/config-schema.json",
   "compatibility_flags": [
     "nodejs_compat"
   ]
